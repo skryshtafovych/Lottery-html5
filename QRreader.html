@@ -1,0 +1,123 @@
+<html><html class="no-js" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="secondchance.css" media="all"><meta charset="utf-8"><title>
+	
+        Winning Numbers
+</title><meta content="Official site for California Lottery" name="description"><meta content="width=device-width" name="viewport">
+<link href="secondchance.css" rel="stylesheet"><meta name="keywords" content=""><link rel="shortcut icon" href="http://www.calottery.com/favicon.ico"><link rel="apple-touch-icon" href="http://www.calottery.com/apple-touch-icon.png">
+    <head>
+        <meta charset="utf-8">
+        <title>Lottery-Stores</title>
+        <!--script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <script type="text/javascript" src="js/lib/jquery-1.7.2.min.js"></script>
+
+        <script type="text/javascript" src="js/lib/jsqrcode/grid.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/version.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/detector.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/formatinf.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/errorlevel.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/bitmat.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/datablock.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/bmparser.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/datamask.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/rsdecoder.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/gf256poly.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/gf256.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/decoder.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/QRCode.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/findpat.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/alignpat.js"></script>
+        <script type="text/javascript" src="js/lib/jsqrcode/databr.js"></script>
+
+        <script type="text/javascript" src="js/qr.js"></script>
+        <script type="text/javascript" src="js/camera.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+
+
+
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0-beta.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.css">
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top" id="menu">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="http://23.236.48.238/google-maps-bootstrap/home.html">California Lottery</a>
+              <div class="nav-collapse">
+                <ul class="nav">
+                  <li><a href="#search_box" data-toggle="modal">Pop Out Search</a></li>
+                  <li><a href="http://23.236.48.238/google-maps-bootstrap/sample/game.html">Games</a></li>
+                  <li><a href="http://23.236.48.238/google-maps-bootstrap/blank_bootstrap.html">Numbers</a></li>
+                  <li><a href="http://23.236.48.238/google-maps-bootstrap/home.html">Map</a></li>
+                  <li><a href="http://23.236.48.238/google-maps-bootstrap/QRreader.html">QR Scanner</a></li>
+                  <li><a href="http://23.236.48.238/google-maps-bootstrap/ReaderUPC.html">UPC Scanner</a></li>                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+        <div id="example" >
+        </div>
+        <div id="search_box" class="modal fade">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">×</button>
+                <h3>Search for Lottery Store!</h3>
+            </div>
+            <div class="modal-body">
+                <form id="search_form" class="well form-search">
+                    <input type="text" class="input-medium search-query" id="search_input">
+                    <button type="submit" class="btn" id="search_button">Search</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0-beta.1/jquery-ui.js"></script>
+
+        <!--script type="text/javascript" src="assets/js/gmap3.js"></script-->
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="assets/js/infoBoxStyles.js"></script>
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/bootstrap-transition.js"></script>
+        <script src="assets/js/bootstrap-alert.js"></script>
+        <script src="assets/js/bootstrap-modal.js"></script>
+        <script src="assets/js/bootstrap-dropdown.js"></script>
+        <script src="assets/js/bootstrap-scrollspy.js"></script>
+        <script src="assets/js/bootstrap-tab.js"></script>
+        <script src="assets/js/bootstrap-tooltip.js"></script>
+        <script src="assets/js/bootstrap-popover.js"></script>
+        <script src="assets/js/bootstrap-button.js"></script>
+        <script src="assets/js/bootstrap-collapse.js"></script>
+        <script src="assets/js/bootstrap-carousel.js"></script>
+        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <script type="text/javascript">
+
+        </script>
+        <script src="assets/js/search.js"></script>
+
+
+        <h1>Lottery QR scan Demo</h1>
+        <p>Hold a QR Code in front of your webcam.</p>
+        <video  id="camsource" autoplay width="320" height="240">Put your fallback message here.</video>
+        <canvas id="qr-canvas" width="320" height="240" style="display:none"></canvas>
+        <h3 id="qr-value"></h3>
+    
+    </body>
+    
+</html>
